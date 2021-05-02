@@ -89,19 +89,17 @@ body{
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	padding-bottom: 10px;
 	background: #fff;
 	border-bottom: 1px solid #000;
 }
 
 .header__logo{
-	padding-right: 22px;
-	width: 200px;
+	width: 140px;
 }
 .header__main {
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 20px;
+	padding-top: 10px;
 	justify-content: space-between;
 	padding-bottom: 10px;
 }
@@ -121,6 +119,10 @@ body{
 .header__nav__item {
 	padding-top: 16px;
 	margin-left: 25px;
+}
+.header__nav__item:first-child{
+	margin-left: 5px;
+
 }
 .header__nav__item__link {
 	font-family: "Proxima Nova Thin";
@@ -550,7 +552,6 @@ body{
 .service__right__form__input {
 	padding-left: 5px;
 	width: 90%;
-	height: 30px;
 	border-bottom: 2px solid #666;
 	margin-bottom: 30px;
 }
@@ -678,7 +679,7 @@ body{
 
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1220px) {
 	.header__logo {
 	    width: 170px;
 	}
@@ -726,11 +727,17 @@ body{
 		font-size: 26px;
 	}
 }
-
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1028px) {
+	.header{
+		padding-bottom: 10px;
+	}
 	.header__logo {
 	    width: 120px;
 	}
+}
+
+@media screen and (max-width: 950px) {
+
 	.header__buttom__link {
 	    padding: 10px 10px;
 	    font-size: 10px;
