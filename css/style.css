@@ -272,52 +272,52 @@ body{
 /* about style end */
 
 
-/* advantages style start */
+/* benef style start */
 
-.advantages {
+.benef {
 	background: url(../img/png/natural-paper.png) #f5f5f5;
 
 }
-.advantages__main {
+.benef__main {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 60px;
 }
-.advantages__subtitel {
+.benef__subtitel {
 	font-family: "Proxima Nova Bold";
 	font-size: 26px;
 	opacity: 0.6;
 	padding-bottom: 10px;
 }
-.advantages__titel {
+.benef__titel {
 	font-family: "Proxima Nova Bold";
 	font-size: 50px;
 	padding-bottom: 30px;
 	opacity: 0.8;
 
 }
-.advantages__list {
+.benef__list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.advantages__list__item{
+.benef__list__item{
 	padding: 30px 20px;
-	text-align-last: left;
+	text-align: left;
 	background: #fff;
 	max-width: 44%;
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.advantages__item__titel {
+.benef__item__titel {
 	font-weight: 600;
 	font-size: 22px;
 	padding-bottom: 20px;
 }
-.advantages__item__text {
+.benef__item__text {
 	font-size: 16px;
 }
-/* advantages style end */
+/* benef style end */
 
 
 /* stages style start */
